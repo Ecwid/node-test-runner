@@ -14,7 +14,7 @@ module.exports = function(verbose) {
   var operatingSystem = process.platform;
 
   var filename = operatingSystem + "-" + arch + ".tar.gz";
-  var url = "https://dl.bintray.com/elmlang/elm-test/" +
+  var url = "https://lamps.ecwid.com/~orange/elm-test" +
     binVersion +
     "/" +
     filename;
