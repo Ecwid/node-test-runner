@@ -1,8 +1,11 @@
 {
   "name": "elm-test",
-  "version": "0.18.12",
+  "version": "0.18.12-ecwid-2",
   "description": "Run elm-test suites.",
   "main": "elm-test.js",
+  "publishConfig": {
+    "registry": "https://public-nexus.ecwid.com/repository/npm-hosted/"
+  },
   "engines": {
     "node": ">=4.7.0"
   },
@@ -13,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rtfeldman/node-test-runner.git"
+    "url": "git+https://github.com/Or4ng3/node-test-runner.git"
   },
   "bin": {
     "elm-test": "bin/elm-test"
